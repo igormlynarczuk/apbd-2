@@ -6,7 +6,7 @@ Console.WriteLine("MODYFIKACJA 3");
 
 static double average(int[] tab){
     double result=0;
-    for(int i=0; i<tab.Length; i++){
+    for(int i=0; i<=tab.Length-1; i++){
         result += tab[i];
     }
     return result/tab.Length
