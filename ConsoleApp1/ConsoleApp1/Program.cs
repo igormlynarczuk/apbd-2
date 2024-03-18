@@ -20,3 +20,4 @@ static double max(int[] tab){
     }
     return result
 }
+//2
