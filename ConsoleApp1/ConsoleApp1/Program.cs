@@ -11,3 +11,12 @@ static double average(int[] tab){
     }
     return result/tab.Length
 }
+
+static double max(int[] tab){
+    double result=tab[0];
+    for(int i=1; i<tab.Length; i++){
+        if(result<tab[i])
+            result=tab[i];
+    }
+    return result
+}
